@@ -1,26 +1,10 @@
-// import React from 'react'
-// import { DocsThemeConfig } from 'nextra-theme-docs'
-
-// const config: DocsThemeConfig = {
-//   logo: <span>My Project</span>,
-//   project: {
-//     link: 'https://github.com/shuding/nextra-docs-template',
-//   },
-//   chat: {
-//     link: 'https://discord.com',
-//   },
-//   docsRepositoryBase: 'https://github.com/shuding/nextra-docs-template',
-//   footer: {
-//     text: 'Nextra Docs Template',
-//   },
-// }
-
-// export default config
-
 export default {
   logo: <span>@omkarbhosale/upiqr</span>,
   project: {
     link: "https://github.com/0mkarBhosale07/-omkarbhosale-upiqr",
+  },
+  footer: {
+    text: "@omkarbhosale/upiqr | All rights reserved. 2025",
   },
   color: {
     hue: 317,
@@ -29,5 +13,9 @@ export default {
       dark: 55,
       light: 55,
     },
+  },
+  banner: {
+    key: "3.0-release",
+    content: <a>🎉 @omkarbhosale/upiqr 1.0.4 is released.</a>,
   },
 };
